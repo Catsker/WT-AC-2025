@@ -1,5 +1,5 @@
 /* ================================
-   styles.css - Объединённая версия для Lab 01 + Lab 02
+   css.css - Объединённая версия для Lab 01 + Lab 02
    Mobile-first, адаптивность, доступность
    ================================= */
 
@@ -454,7 +454,7 @@ body.dark {
   --accent: #3da2ff;
   --accent-2: #66b9ff;
   --shadow: 0 6px 20px rgb(0 0 0 / 60%);
- 
+
   background-color: var(--bg);
   color: var(--text);
 }
@@ -732,17 +732,17 @@ body.dark .like-button {
   .tabs {
     flex-direction: column;
   }
-  
+
   .tab-button {
     min-width: auto;
     border-bottom: 1px solid rgb(11 18 32 / 10%);
   }
-  
+
   .tab-button.active {
     border-bottom: 3px solid var(--accent);
     border-right: none;
   }
-  
+
   .modal-content {
     margin: 1rem;
     max-height: calc(100vh - 2rem);

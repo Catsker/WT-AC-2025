@@ -555,7 +555,7 @@ footer .container {
   display: none;
 }
 
-/* Mobile styles (320px - 640px) */
+/* Mobile css (320px - 640px) */
 @media (width <= 640px) {
   header {
     padding: 1.5rem 1rem 0.75rem;
@@ -614,7 +614,7 @@ footer .container {
   }
 }
 
-/* Tablet styles (640px - 880px) */
+/* Tablet css (640px - 880px) */
 @media (640px <= width <= 879px) {
   .hero {
     flex-direction: row;
@@ -638,7 +638,7 @@ footer .container {
   }
 }
 
-/* Desktop styles (880px+) */
+/* Desktop css (880px+) */
 @media (width >= 880px) {
   .hero {
     flex-direction: row;

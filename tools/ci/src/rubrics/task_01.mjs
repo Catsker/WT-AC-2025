@@ -132,7 +132,7 @@ export async function check({ repoRoot, studentTaskPath, thresholds, ai }) {
   const srcDir = path.join(repoRoot, studentTaskPath, 'src');
   const docDir = path.join(repoRoot, studentTaskPath, 'doc');
   const idx = path.join(srcDir, 'index.html');
-  const cssFile = path.join(srcDir, 'styles.css');
+  const cssFile = path.join(srcDir, 'css.css');
   const reportFile = path.join(docDir, 'readme.md');
 
   const filesOk = exists(idx) && exists(cssFile);

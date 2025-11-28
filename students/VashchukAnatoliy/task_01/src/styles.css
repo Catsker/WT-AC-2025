@@ -1,5 +1,5 @@
 /* ================================
-   styles.css — упрощённая версия с кнопкой темы справа
+   css.css — упрощённая версия с кнопкой темы справа
    Mobile-first, адаптивность, доступность
    Breakpoints:
      - small: <=600px
@@ -385,7 +385,7 @@ body.dark {
   --accent: #3da2ff;
   --accent-2: #66b9ff;
   --shadow: 0 6px 20px rgb(0 0 0 / 60%);
- 
+
   background-color: var(--bg);
   color: var(--text);
 }

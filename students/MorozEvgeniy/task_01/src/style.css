@@ -1,5 +1,5 @@
 ﻿/* ================================
-   styles.css — АДАПТИРОВАННАЯ ВЕРСИЯ
+   css.css — АДАПТИРОВАННАЯ ВЕРСИЯ
    Mobile-first, адаптивность, доступность
    Breakpoints:
      - small: <=600px
@@ -33,7 +33,7 @@ body.dark {
   --accent: #3da2ff; /* Светлый синий */
   --accent-2: #e74c3c; /* Красный остается ярким */
   --shadow: 0 6px 20px rgb(0 0 0 / 60%);
-  
+
   background-color: var(--bg);
   color: var(--text);
 }
@@ -298,7 +298,7 @@ section h2::after {
   .container {
     padding: 0 1.5rem;
   }
-    
+
   /* GRID для Ведущих: 2 колонки */
   .hosts-grid {
     display: grid;
@@ -306,7 +306,7 @@ section h2::after {
     gap: var(--gap-md);
     margin-top: 2rem;
   }
-  
+
   /* GRID для Выпусков: 2 колонки */
   .episodes-grid {
     display: grid;
@@ -341,7 +341,7 @@ section h2::after {
     gap: 3rem;
     margin-top: 2rem;
   }
-  
+
   /* Навигация: делаем ссылки более широкими */
   .main-nav a {
     padding: 0.6rem 1.25rem;
